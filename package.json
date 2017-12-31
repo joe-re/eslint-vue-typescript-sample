@@ -22,6 +22,8 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "eslint": "^4.14.0",
+    "eslint-config-typescript": "^1.0.2",
+    "eslint-plugin-typescript": "^0.8.1",
     "eslint-plugin-vue": "^4.0.0-beta.4",
     "file-loader": "^1.1.4",
     "ts-loader": "^3.2.0",
