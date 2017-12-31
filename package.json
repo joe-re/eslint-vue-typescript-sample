@@ -11,8 +11,6 @@
     "lint": "eslint \"src/**/*.{ts,vue}\""
   },
   "dependencies": {
-    "ts-loader": "^3.2.0",
-    "typescript": "^2.6.2",
     "vue": "^2.5.11"
   },
   "browserslist": [
@@ -26,6 +24,10 @@
     "eslint": "^4.14.0",
     "eslint-plugin-vue": "^4.0.0-beta.4",
     "file-loader": "^1.1.4",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typescript-eslint-parser": "^11.0.0",
+    "vue-eslint-parser": "^v2.0.1-beta.3",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
