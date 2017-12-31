@@ -8,12 +8,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import TodoForm from './TodoForm.vue'
-import TodoList from './TodoList.vue'
-export type Todo = { id: number, text: string, done: boolean }
-type Data = { msg: string, todos: Todo[] }
-let id = 0
+import Vue from 'vue';
+import TodoForm from './TodoForm.vue';
+import TodoList from './TodoList.vue';
+export type Todo = { id: number; text: string; done: boolean };
+type Data = { msg: string; todos: Todo[] };
+let _id = 0;
 export default Vue.extend({
   name: 'app',
   components: { TodoForm, TodoList },
@@ -21,14 +21,14 @@ export default Vue.extend({
     return {
       msg: 'Welcome to Your Vue.js App',
       todos: []
-    }
+    };
   },
   methods: {
     handleCreate(text: string) {
-      this.todos = this.todos.concat([{ id: ++id, text, done: false}])
+      this.todos = this.todos.concat([{ id: ++_id, text, done: false}]);
     }
   }
-})
+});
 </script>
 
 <style>

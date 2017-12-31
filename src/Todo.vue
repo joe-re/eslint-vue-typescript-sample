@@ -11,12 +11,12 @@
   </div>
 </template>
 <script lang="ts">
-import Vue from 'vue'
-import { Todo } from './App.vue'
-import { Prop } from 'vue-prop'
+import Vue from 'vue';
+import { Todo } from './App.vue';
+import { Prop } from 'vue-prop';
 export default Vue.extend({
   props: { todo: Object as Prop<Todo>, required: true }
-})
+});
 </script>
 <style scoped>
 .todo { width: 240px }

@@ -8,14 +8,14 @@
   </div>
 </template>
 <script lang="ts">
-import Vue from 'vue'
-import { Prop } from 'vue-prop'
-import Todo from './Todo.vue'
-import { Todo as TodoType } from './App.vue'
+import Vue from 'vue';
+import { Prop } from 'vue-prop';
+import Todo from './Todo.vue';
+import { Todo as TodoType } from './App.vue';
 export default Vue.extend({
   components: { Todo },
   props: { todos: { type: Array as Prop<TodoType[]>, required: true }}
-})
+});
 </script>
 <style scoped>
 .todolist {
